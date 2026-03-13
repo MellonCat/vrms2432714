@@ -1,4 +1,4 @@
-﻿-- Flyway init schema (tables for vehicle/owner/agent/registration)
+-- Flyway init schema (tables for vehicle/owner/agent/registration)
 -- NOTE: H2 is used in-memory (see application.yml), so we keep this H2-friendly.
 
 CREATE TABLE IF NOT EXISTS vehicles (

@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms2432714.modules.registration.infrastructure.persistence;
+package com.champsoft.vrms2432714.modules.registration.infrastructure.persistence;
 
 public class RegistrationJpaEntity {
 }

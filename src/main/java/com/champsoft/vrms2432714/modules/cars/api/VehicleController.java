@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms2432714.modules.cars.api;
+package com.champsoft.vrms2432714.modules.cars.api;
 
 public class VehicleController {
 }

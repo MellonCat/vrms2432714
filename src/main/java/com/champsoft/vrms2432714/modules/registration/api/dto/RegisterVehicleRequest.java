@@ -1,3 +1,3 @@
-﻿package com.champsoft.vrms2432714.modules.registration.api.dto;
+package com.champsoft.vrms2432714.modules.registration.api.dto;
 
 public record RegisterVehicleRequest(String vehicleId, String ownerId, String agentId) { }
