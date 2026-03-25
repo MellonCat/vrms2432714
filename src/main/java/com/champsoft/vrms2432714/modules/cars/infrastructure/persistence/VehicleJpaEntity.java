@@ -1,6 +1,7 @@
 package com.champsoft.vrms2432714.modules.cars.infrastructure.persistence;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -10,14 +11,13 @@ import jakarta.persistence.Table;
 public class VehicleJpaEntity {
     @Id
     public String id;
+
     @Column(nullable = false, unique = true)
     public String vin;
-    @Column(nullable = false)
-    public String make;
-    @Column(nullable = false)
-    public String model;
-    @Column(nullable = false)
-    public int vehicle_year;
+
+    @Embedded
+    public VehicleSpecsEmbeddable specs;
+
     @Column(nullable = false)
     public String status;
 }
